@@ -1,0 +1,127 @@
+body {
+  background-image: url('../MyNotelist/asset/background.avif');
+ 
+
+  /* background-color: #a8dbdb7a; */
+}
+#mainContainer {
+  display: inline-flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+}
+#mainHeading {
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.645);
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+#addContainer {
+  flex-wrap: wrap;
+  display: inline-flex;
+  justify-content: space-between;
+  width: 50%;
+  height: min-content;
+  background-color:rgba(158, 154, 154, 0.645);;
+  border: 4px solid #6c1ee9;
+  padding: 10px;
+  padding: 10px 5px 10px 5px;
+  border-radius: 10px;
+}
+
+#addItemBtn {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  height: 30px;
+  color: #6c1ee9;
+  border: 2px solid #6c1ee9;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+label {
+  color: black;
+  font-weight: bolder;
+}
+textarea {
+  height: 50px;
+  width: 200px;
+  appearance: none;
+  border: none;
+  outline: none;
+  border-bottom: 0.2em solid;
+  background: rgba(#e5dade, 0.2);
+  border-radius: 0.2em 0.2em 0 0;
+  padding: 0.4em;
+  color: #6c1ee9;
+}
+
+#inputTitle {
+  appearance: none;
+  border: none;
+  outline: none;
+  border-bottom: 0.2em solid;
+  background: rgba(#e5dade, 0.2);
+  border-radius: 0.2em 0.2em 0 0;
+  padding: 0.4em;
+  color: #6c1ee9;
+  width: 200px;
+}
+#listConatiner {
+  height: fit-content;
+  width: 50%;
+}
+.listItems {
+  box-shadow: 5px 1px 7px rgb(79, 91, 178);
+  margin: 5px;
+  border: 1px solid #6c1ee9;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.645);
+  border-radius: 10px;
+}
+.listItemTitle {
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+.listItemDescription {
+  font-size: 20px;
+}
+.editBtn {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  height: 30px;
+  color: #6c1ee9;
+  border: 2px solid #6c1ee9;
+  font-size: 20px;
+  border-radius: 10px;
+
+}
+.deleteBtn {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  height: 30px;
+  color: #6c1ee9;
+  border: 2px solid #6c1ee9;
+  font-size: 20px;
+  border-radius: 10px;
+
+}
+button:hover {
+  /* box-shadow:5px 1px 7px black; */
+  transform: scale(1.1);
+  box-shadow: 5px 1px 7px white;
+}
+
+Label [for="Description"]{
+  padding-bottom: 20px;
+}
